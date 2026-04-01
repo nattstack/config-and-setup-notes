@@ -34,10 +34,15 @@ brew install --cask font-jetbrains-mono-nerd-font
 
 # install software
 brew install --cask applite # Homebrew UI
+brew install --cask brave-browser # Browser
+brew install --cask copilot-money
 brew install --cask cursor
 brew install --cask figma
 brew install --cask ghostty # Terminal
+brew install --cask handy # Speech-to-text
 brew install --cask iina # Video player
+brew install --cask keycastr # Keystroke visualizer
+brew install --cask lm-studio
 brew install --cask pika # Color picker
 brew install --cask raindropio # Bookmarks
 brew install --cask raycast # Launcher
@@ -45,13 +50,8 @@ brew install --cask shottr # Screenshot
 brew install --cask spotify
 brew install --cask steam
 brew install --cask the-unarchiver
-brew install --cask brave-browser # Browser
-brew install --cask superwhisper
-brew install --cask copilot-money
-brew install --cask lm-studio
-brew install anomalyco/tap/opencode
 brew install --cask yaak # HTTP client
-brew install --cask keycastr # Keystroke visualizer
+brew install anomalyco/tap/opencode
 
 Maybe
 brew install --cask google-chrome
