@@ -24,7 +24,6 @@ brew analytics off
 # Must-haves
 brew install git
 brew install node
-brew install pnpm
 brew install gh
 brew install oven-sh/bun/bun
 
@@ -58,6 +57,7 @@ Maybe
 brew install --cask google-chrome
 brew install --cask productdevbook/tap/portkiller
 brew install --cask slack
+brew install pnpm
 brew install nvm
 
 # Keyboard sounds
