@@ -51,7 +51,6 @@ brew install --cask spotify
 brew install --cask steam
 brew install --cask the-unarchiver
 brew install --cask yaak # HTTP client
-brew install anomalyco/tap/opencode
 
 Maybe
 brew install --cask google-chrome
