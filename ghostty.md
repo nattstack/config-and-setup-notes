@@ -4,7 +4,7 @@
 
 ```toml
 background = #000000
-background-blur-radius = 40
+background-blur-radius = 48
 background-opacity = 0.8
 clipboard-read = allow
 confirm-close-surface = false
