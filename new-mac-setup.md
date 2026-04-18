@@ -34,7 +34,7 @@ brew install --cask font-jetbrains-mono-nerd-font
 
 # install software
 brew install --cask applite # Homebrew UI
-brew install --cask brave-browser # Browser
+brew install --cask helium-browser # Browser
 brew install --cask copilot-money
 brew install --cask cursor
 brew install --cask figma
