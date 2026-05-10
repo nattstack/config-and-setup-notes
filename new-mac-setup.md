@@ -22,9 +22,9 @@ killall Finder
 brew analytics off
 
 # Must-haves
+brew install gh
 brew install git
 brew install node
-brew install gh
 brew install oven-sh/bun/bun
 
 # install fonts
