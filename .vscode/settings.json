@@ -14,9 +14,9 @@
     "statusBarItem.remoteBackground": "#007fff",
     "statusBarItem.remoteForeground": "#e7e7e7",
     "titleBar.activeBackground": "#007fff",
-    "titleBar.activeForeground": "#e7e7e7",
+    // "titleBar.activeForeground": "#e7e7e7",
     "titleBar.inactiveBackground": "#007fff99",
-    "titleBar.inactiveForeground": "#e7e7e799"
+    // "titleBar.inactiveForeground": "#e7e7e799"
   },
   "peacock.color": "#007fff"
 }
