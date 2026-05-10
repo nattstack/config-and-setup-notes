@@ -33,9 +33,7 @@ brew install --cask font-commit-mono-nerd-font
 brew install --cask font-jetbrains-mono-nerd-font
 
 # install software
-brew install --cask applite # Homebrew UI
 brew install --cask helium-browser # Browser
-brew install --cask copilot-money
 brew install --cask cursor
 brew install --cask figma
 brew install --cask ghostty # Terminal
@@ -43,7 +41,6 @@ brew install --cask handy # Speech-to-text
 brew install --cask iina # Video player
 brew install --cask keycastr # Keystroke visualizer
 brew install --cask lm-studio
-brew install --cask pika # Color picker
 brew install --cask raindropio # Bookmarks
 brew install --cask raycast # Launcher
 brew install --cask shottr # Screenshot
@@ -53,11 +50,14 @@ brew install --cask the-unarchiver
 brew install --cask yaak # HTTP client
 
 Maybe
+brew install --cask copilot-money
+brew install --cask applite # Homebrew UI
+brew install --cask pika # Color picker
 brew install --cask google-chrome
 brew install --cask productdevbook/tap/portkiller
 brew install --cask slack
-brew install pnpm
-brew install nvm
+# brew install pnpm
+# brew install nvm
 
 # Keyboard sounds
 # NK Cream 85 volume
@@ -66,7 +66,7 @@ brew install --cask mechvibes
 # install Starship
 brew install starship
 
-brew install --cask nikitabobko/tap/aerospace
+# brew install --cask nikitabobko/tap/aerospace
 brew install btop
 brew install eza
 brew install fastfetch
