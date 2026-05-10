@@ -121,6 +121,7 @@ alias r="source ~/.zshrc"
 alias reload="source ~/.zshrc"
 # Edit `.zshrc` file
 alias s="cursor ~/.zshrc"
+alias sc='cursor "$HOME/Library/Application Support/Cursor/User/settings.json"'
 alias setting="cursor ~/.zshrc"
 alias settings="cursor ~/.zshrc"
 alias sg="cursor ~/.gitconfig"
@@ -130,10 +131,10 @@ alias host="sudo vim /etc/hosts"
 # Zip folder
 alias zipf="zip -er <FILE_NAME>.zip <FOLDER_NAME>"
 # Quick navigation
-alias god="cd /Users/<USER>/Documents/"
-alias gog="cd /Users/<USER>/Documents/repos"
-alias cdd="cd /Users/<USER>/Documents/"
-alias cdg="cd /Users/<USER>/Documents/repos"
+alias god='cd "$HOME/Documents/"'
+alias gog='cd "$HOME/Documents/github"'
+alias cdd='cd "$HOME/Documents/"'
+alias cdg='cd "$HOME/Documents/github"'
 # Text editor
 alias nvim="cursor"
 alias vim="cursor"
