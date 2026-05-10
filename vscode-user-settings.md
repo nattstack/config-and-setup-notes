@@ -3,13 +3,18 @@
 ```jsonc
 {
   "accessibility.signalOptions.volume": 25, // Volume level for accessibility sound signals
-  "accessibility.signals.format": { "sound": "always" }, // Makes a sound on format
-  "accessibility.signals.save": { "sound": "always" }, // Makes a sound on save
+  "accessibility.signals.format": {
+    "sound": "always"
+  }, // Makes a sound on format
+  "accessibility.signals.save": {
+    "sound": "always"
+  }, // Makes a sound on save
   "cursor.composer.shouldChimeAfterChatFinishes": true, // Play a sound when a chat response is completed
   "diffEditor.hideUnchangedRegions.enabled": true, // Shows unchanged regions
   "diffEditor.ignoreTrimWhitespace": false, // Keep whitespace in diffs
-  "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" }, // On save, fix all eslint errors
-  "editor.defaultFormatter": "esbenp.prettier-vscode", // Prettier extension
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }, // On save, fix all eslint errors
   "editor.fontFamily": "CommitMono Nerd Font", // Editor font
   "editor.fontSize": 12, // Editor font size
   "editor.formatOnPaste": true, // On paste, format
@@ -21,16 +26,11 @@
   "editor.stickyScroll.enabled": true, // Editor sticky scroll enabled
   "editor.tabSize": 2, // Default tab size
   "editor.wordWrap": "on", // Editor wrap lines
-  "eslint.validate": [
-    // ESLint extension
-    "html",
-    "javascript",
-    "javascriptreact",
-    "typescriptreact"
-  ],
   "explorer.sortOrder": "default", // Default file and folder order
   "extensions.ignoreRecommendations": true, // Ignore recommendations extensions
-  "files.associations": { "*.css": "tailwindcss" }, // Fixes `Unknown at rule @tailwindpostcss(unknownAtRules)`
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }, // Fixes `Unknown at rule @tailwindpostcss(unknownAtRules)`
   "files.eol": "\n", // Default EOL
   "files.insertFinalNewline": true, // Insert final newline
   "files.trimFinalNewlines": true, // Trim final newlines
@@ -43,10 +43,11 @@
   "javascript.updateImportsOnFileMove.enabled": "always", // Automatically update imports
   "scm.defaultViewMode": "tree", // Shows file tree in the source control sidebar tab
   "terminal.integrated.fontFamily": "CommitMono Nerd Font", // Terminal font
-  "typescript.preferences.autoImportFileExcludePatterns": ["lucide-react"], // Change the autocompletion (e.g. import { Link } from "lucide-react") Reference: https://lucide.dev/guide/advanced/aliased-names#choosing-import-name-style
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "lucide-react"
+  ], // Change the autocompletion (e.g. import { Link } from "lucide-react") Reference: https://lucide.dev/guide/advanced/aliased-names#choosing-import-name-style
   "typescript.preferences.importModuleSpecifier": "non-relative", // Prefers a non-relative import based
   "typescript.referencesCodeLens.enabled": true, // Shows inline where your functions and variables are used
-  "typescript.tsdk": "node_modules/typescript/lib", // Use workspace typescript version
   "typescript.updateImportsOnFileMove.enabled": "always", // Automatically update imports
   "window.commandCenter": false, // Turns off the editor top section
   "window.nativeTabs": true, // Enables macOS Sierra window tabs
@@ -57,14 +58,19 @@
     "**/app/**/page.tsx": "${dirname}/${filename}", // route.ts
     "**/app/**/layout.tsx": "${dirname}/${filename}" // layout.tsx, page.tsx, template.tsx
   },
-  "workbench.iconTheme": "material-icon-theme", // Editor file icon theme
+  // "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "pierre-icons-complete", // Editor file icon theme
   "workbench.productIconTheme": "fluent-icons", // Editor product icon theme
   //
   //
   //
   //
   // Spellcheck
-  "cSpell.ignorePaths": ["node_modules", "package-lock.json", "pnpm-lock.yaml"],
+  "cSpell.ignorePaths": [
+    "node_modules",
+    "package-lock.json",
+    "pnpm-lock.yaml"
+  ],
   "cSpell.userWords": [
     "Adblockers",
     "addgroup",
@@ -305,6 +311,6 @@
     "yoyo",
     "zipf",
     "zustand"
-  ]
+  ],
 }
 ```
