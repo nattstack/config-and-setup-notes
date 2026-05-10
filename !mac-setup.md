@@ -50,8 +50,8 @@ brew install --cask the-unarchiver
 brew install --cask yaak # HTTP client
 
 Maybe
-brew install --cask copilot-money
-brew install --cask applite # Homebrew UI
+# brew install --cask copilot-money
+# brew install --cask applite # Homebrew UI
 brew install --cask pika # Color picker
 brew install --cask google-chrome
 brew install --cask productdevbook/tap/portkiller
@@ -61,7 +61,7 @@ brew install --cask slack
 
 # Keyboard sounds
 # NK Cream 85 volume
-brew install --cask mechvibes
+# brew install --cask mechvibes
 
 # install Starship
 brew install starship
