@@ -38,6 +38,7 @@ brew install --cask cursor
 brew install --cask figma
 brew install --cask ghostty # Terminal
 brew install --cask handy # Speech-to-text
+brew install --cask harper-desktop # Grammer checker
 brew install --cask iina # Video player
 brew install --cask keycastr # Keystroke visualizer
 brew install --cask lm-studio
