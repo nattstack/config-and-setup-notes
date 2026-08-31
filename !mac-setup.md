@@ -26,6 +26,7 @@ brew install gh
 brew install git
 brew install node
 brew install oven-sh/bun/bun
+brew install uv
 
 # install fonts
 # https://formulae.brew.sh/cask-font
